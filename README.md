@@ -1,37 +1,49 @@
 📊 Dashboard de Salários na Área de Dados
 
-📌 Sobre o projeto
+Projeto desenvolvido durante a Imersão Dados com Python (Alura), com foco em análise, tratamento e visualização de dados e na construção de um dashboard interativo utilizando Streamlit.
 
-Este projeto é um Dashboard Interativo desenvolvido em Python, utilizando Streamlit para a interface web.
-O objetivo é analisar salários da área de dados ao longo dos anos, permitindo aplicar filtros dinâmicos e explorar informações sobre cargos, senioridade, tipos de contrato e localização geográfica.
+🚀 Sobre o projeto
 
-Com ele, você pode visualizar métricas principais (KPIs), gráficos interativos e tabelas detalhadas, tudo em uma interface simples e intuitiva.
+O dashboard permite explorar informações sobre salários da área de dados, aplicando filtros dinâmicos e analisando métricas principais (KPIs), gráficos interativos e tabelas detalhadas.
+
+Além de rodar localmente, o projeto foi publicado na nuvem utilizando o Streamlit Cloud, permitindo acesso direto pelo navegador.
+
+👉 Acesse aqui a versão online: https://imersao-dados-python-alura-2026.streamlit.app/
 
 _____________________________________________________________________________________________________________________________________________________________________________
 
 🛠️ Tecnologias utilizadas
 
-Python
-Streamlit → Criação da aplicação web interativa
-Pandas → Manipulação e tratamento dos dados
-Plotly Express → Visualização de dados com gráficos interativos
+Python → linguagem base do projeto
+
+Pandas → manipulação e tratamento de dados
+
+Matplotlib → utilizado no aprendizado inicial no Colab
+
+Plotly Express → visualização interativa dos dados
+
+Streamlit → criação da aplicação web interativa e deploy na nuvem
 _____________________________________________________________________________________________________________________________________________________________________________
 
 ⚙️ Funcionalidades
 
-✅ Filtros interativos por Ano, Senioridade, Tipo de Contrato e Tamanho da Empresa
-✅ KPIs principais: salário médio, salário máximo, total de registros e cargo mais frequente
+✅ Filtros dinâmicos (Ano, Senioridade, Tipo de Contrato, Empresa)
+
+✅ KPIs principais: salário médio, máximo, total de registros, cargo mais frequente
+
 ✅ Gráficos interativos:
 
-📊 Top 10 cargos por salário médio
+Top 10 cargos por salário médio
 
-📉 Distribuição de salários anuais
+Distribuição de salários anuais
 
-🥧 Proporção dos tipos de trabalho (remoto, híbrido, presencial)
+Proporção de trabalho remoto/híbrido/presencial
 
-🌍 Mapa coroplético: salário médio de Cientistas de Dados por país
+Mapa coroplético de Cientistas de Dados por país
 
 ✅ Exibição de tabela detalhada com os dados filtrados
+
+✅ Deploy online acessível pelo navegador
 _____________________________________________________________________________________________________________________________________________________________________________
 
 📂 Estrutura do projeto
